@@ -25,7 +25,7 @@ module event_counter #(
         input wire                            ARESETN,
         input wire                            ENABLE,
 
-        input  wire  [TARGET_WIDTH-1 : 0]     INITIAL,
+        input  wire  [TARGET_WIDTH-1 : 0]     INIT_VAL,
         input  wire  [TARGET_WIDTH-1 : 0]     TARGET,
         input  wire                           TICK,
         output wire                           REACHED,
@@ -76,7 +76,7 @@ module event_counter #(
 
     always @(posedge ACLK) begin
         if (~ARESETN || rst_reached) begin
-            counter_r <= INITIAL;
+            counter_r <= INIT_VAL;
         end else
         if (enable)
             counter_r <= (tick == `TRUE) ? counter_plus1 : counter_r;

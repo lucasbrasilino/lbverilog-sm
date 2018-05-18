@@ -21,10 +21,10 @@ module event_counter_tb;
     localparam PERIOD = HALF_CORE_PERIOD*2;
     localparam TARGET_WIDTH      = 4;
 
-    wire [TARGET_WIDTH-1 : 0] INITIAL;
+    wire [TARGET_WIDTH-1 : 0] INIT;
     wire [TARGET_WIDTH-1 : 0] TARGET;
 
-    assign INITIAL = 4'h0;
+    assign INIT = 4'h0;
     assign TARGET  = 4'h6;
 
     initial begin
@@ -78,7 +78,7 @@ module event_counter_tb;
         .ACLK            (ACLK           ),
         .ARESETN         (ARESETN        ),
         .ENABLE          (ENABLE         ),
-        .INITIAL         (INITIAL        ),
+        .INIT_VAL        (INIT           ),
         .TARGET          (TARGET         ),
         .TICK            (TICK           ),
         .REACHED         (REACHED        ),
