@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="se_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="se_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="119995016fs"></ZoomStartTime>
+      <ZoomEndTime time="120000997fs"></ZoomEndTime>
+      <Cursor1Time time="120000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="array" fp_name="/se_tb/in_val1">
+      <obj_property name="ElementShortName">in_val1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_val1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/se_tb/out_val1">
+      <obj_property name="ElementShortName">out_val1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_val1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/se_tb/in_val2">
+      <obj_property name="ElementShortName">in_val2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in_val2[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/se_tb/out_val2">
+      <obj_property name="ElementShortName">out_val2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out_val2[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/se_tb/in_val3">
+      <obj_property name="ElementShortName">in_val3[255:0]</obj_property>
+      <obj_property name="ObjectShortName">in_val3[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/se_tb/out_val3">
+      <obj_property name="ElementShortName">out_val3[255:0]</obj_property>
+      <obj_property name="ObjectShortName">out_val3[255:0]</obj_property>
+   </wvobject>
+</wave_config>
