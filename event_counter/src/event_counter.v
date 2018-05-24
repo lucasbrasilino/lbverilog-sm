@@ -18,7 +18,7 @@
 module event_counter #(
         parameter integer TARGET_WIDTH        = 4,
         parameter integer EVENT_IS_CLOCK      = 0,
-        parameter integer HAS_ENABLE          = 1,
+        parameter integer HAS_ENABLE          = 0,
         parameter integer RESET_IF_REACHED    = 1
         ) (
         input wire                            ACLK,
